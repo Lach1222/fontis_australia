@@ -404,17 +404,34 @@ class Fontis_Australia_Model_Shipping_Carrier_Australiapost
         $codes = array(
             'services' => array(
                 'AUS_LETTER_EXPRESS_SMALL'          => $helper->__('Express Post Small Envelope'),
+                'AUS_LETTER_EXPRESS_MEDIUM'         => $helper->__('Express Post Medium Envelope'),
+                'AUS_LETTER_EXPRESS_LARGE'          => $helper->__('Express Post Large Envelope'),
+                'AUS_LETTER_REGULAR_SMALL'          => $helper->__('Small Letter'),
                 'AUS_LETTER_REGULAR_LARGE'          => $helper->__('Large Letter'),
                 'AUS_PARCEL_COURIER'                => $helper->__('Courier Post'),
                 'AUS_PARCEL_COURIER_SATCHEL_MEDIUM' => $helper->__('Courier Post Assessed Medium Satchel'),
                 'AUS_PARCEL_EXPRESS'                => $helper->__('Express Post'),
                 'AUS_PARCEL_REGULAR'                => $helper->__('Parcel Post'),
 
+                'AUS_PARCEL_REGULAR_SATCHEL_500G'   => $helper->__('Regular Satchel 500G'),
+                'AUS_PARCEL_REGULAR_SATCHEL_1KG'    => $helper->__('Regular Satchel 1KG'),
+                'AUS_PARCEL_REGULAR_SATCHEL_3KG'    => $helper->__('Regular Satchel 3KG'),
+                'AUS_PARCEL_REGULAR_SATCHEL_5KG'    => $helper->__('Regular Satchel 5KG'),
+                'AUS_PARCEL_EXPRESS_SATCHEL_500G'   => $helper->__('Express Satchel 500G'),
+                'AUS_PARCEL_EXPRESS_SATCHEL_1KG'    => $helper->__('Express Satchel 1KG'),
+                'AUS_PARCEL_EXPRESS_SATCHEL_3KG'    => $helper->__('Express Satchel 3KG'),
+                'AUS_PARCEL_EXPRESS_SATCHEL_5KG'    => $helper->__('Express Satchel 5KG'),
+
                 'INT_PARCEL_COR_OWN_PACKAGING'      => $helper->__('International Courier'),
                 'INT_PARCEL_EXP_OWN_PACKAGING'      => $helper->__('International Express'),
                 'INT_PARCEL_STD_OWN_PACKAGING'      => $helper->__('International Standard'),
                 'INT_PARCEL_AIR_OWN_PACKAGING'      => $helper->__('International Economy Air'),
                 'INT_PARCEL_SEA_OWN_PACKAGING'      => $helper->__('International Economy Sea'),
+
+                'INT_PARCEL_STD_SMALL_SATCHEL'      => $helper->__('International Satchel Small'),
+                'INT_PARCEL_STD_MEDIUM_SATCHEL'     => $helper->__('International Satchel Medium'),
+                'INT_PARCEL_STD_LARGE_SATCHEL'      => $helper->__('International Satchel Large'),
+
             ),
             'extra_cover' => array(
                 'AUS_SERVICE_OPTION_SIGNATURE_ON_DELIVERY'       => $helper->__('Signature on Delivery'),
